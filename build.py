@@ -43,7 +43,6 @@ def download_archives(directory, url_list):
     for url in url_list:
         filepath = \
             os.path.join(directory, url.split("/")[-3])
-        print "Writing file {0}".format('{0}.tar.gz'.format(filepath))
         with open('{0}.tar.gz'.format(filepath), "wb") as outfile:
             response = requests.get(url)
             outfile.write(response.content)
