@@ -1,0 +1,48 @@
+cloudify-versions:
+- 4.3.1
+
+examples:
+- name: openstack-example-network
+  type: infrastruture
+  versions:
+    4.3.1: https://github.com/cloudify-examples/openstack-example-network/archive/master.zip
+
+- name: aws-example-network
+  type: infrastruture
+  versions:
+    4.3.1: https://github.com/cloudify-examples/aws-example-network/archive/master.zip
+
+- name: gcp-example-network
+  type: infrastruture
+  versions:
+    4.3.1: https://github.com/cloudify-examples/gcp-example-network/archive/master.zip
+
+- name: azure-example-network
+  type: infrastruture
+  versions:
+    4.3.1: https://github.com/cloudify-examples/azure-example-network/archive/master.zip
+
+- name: 'hello-world'
+  type: application
+  versions:
+    4.3.1: https://github.com/cloudify-examples/hello-world-blueprint/archive/master.zip
+
+- name: 'db'
+  type: application
+  versions:
+    4.3.1: https://github.com/cloudify-examples/mariadb-blueprint/archive/master.zip
+
+- name: 'lb'
+  type: application
+  versions:
+    4.3.1: https://github.com/cloudify-examples/haproxy-blueprint/archive/master.zip
+
+- name: 'drupal'
+  type: application
+  versions:
+    4.3.1: https://github.com/cloudify-examples/drupal-blueprint/archive/master.zip
+
+- name: 'nodecellar-winestore'
+  type: application
+  versions:
+    4.3.1: https://github.com/cloudify-examples/nodecellar-auto-scale-auto-heal-blueprint/archive/master.zip
